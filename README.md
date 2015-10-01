@@ -60,7 +60,7 @@ add_watcher(dynamic_example_name,
             [{interval_ms, 10000},
             {init_delay, 5000},
             {file_path, "FILE_PATH"}]).
-GitHub::Markup.render(file, File.read(file))
+
 ```
 
 Contributing

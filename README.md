@@ -1,4 +1,4 @@
-econfd - An erlang conf.d 
+econfd - An erlang conf.d  [![Build Status](https://secure.travis-ci.org/posilva/econfd.png)](http://travis-ci.org/posilva/econfd)
 ==========================
 
 This erlang library enables to check/monitor if some files/resources changed over time and notify some handler module about that:

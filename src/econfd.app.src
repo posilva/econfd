@@ -1,0 +1,24 @@
+%% -*- tab-width: 4;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 et
+{application, econfd,
+ [
+     {description, "Configuration Watcher"},
+     {vsn, "0.0.1"},
+     {modules, []},
+     {applications, [
+         sasl,
+         kernel,
+         stdlib,
+         crypto,
+         public_key,
+         ssl,
+         inets,
+         erlcloud,
+         lager
+         ]},
+     {registered, [econfd_sup, econfd_watchdog_sup]},
+     {mod, {econfd_app, []}},
+     {env, [
+
+     ]}
+ ]}.

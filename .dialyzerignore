@@ -1,0 +1,12 @@
+Call to missing or unexported function crypto:sha256/1
+Call to missing or unexported function lager:debug/1
+Call to missing or unexported function lager:debug/2
+Call to missing or unexported function lager:error/1
+Call to missing or unexported function lager:error/2
+Call to missing or unexported function lager:notice/1
+Call to missing or unexported function lager:notice/2
+done (warnings were emitted)
+lager_not_running
+Expression produces a value of type 'ok' | {'error',_}, but this value is unmatched
+lager_trunc_io.erl:283: Call to missing or unexported function erlang:is_map/1
+lager_trunc_io.erl:335: Call to missing or unexported function erlang:map_size/1
